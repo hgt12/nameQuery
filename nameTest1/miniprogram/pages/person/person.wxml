@@ -1,0 +1,4 @@
+<view>
+  <view>用户名: {{username}}</view>
+  <image src="{{avatarUrl}}" bindtap="onUploadAvatar" />
+</view>

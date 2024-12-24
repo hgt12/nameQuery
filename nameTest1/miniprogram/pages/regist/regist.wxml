@@ -1,0 +1,13 @@
+<view>
+  <input placeholder="用户名" bindinput="onUsernameInput" />
+  <input type="password" placeholder="密码" bindinput="onPasswordInput" />
+  <input type="password" placeholder="确认密码" bindinput="onConfirmPasswordInput" />
+  <input placeholder="手机号" bindinput="onPhoneInput" />
+  <picker mode="selector" range="{{genders}}" bindchange="onGenderChange">
+    <view>{{genders[genderIndex]}}</view>
+  </picker>
+  <picker mode="date" bindchange="onDateChange">
+    <view>{{birthdate}}</view>
+  </picker>
+  <button bindtap="onRegist">注册</button>
+</view>

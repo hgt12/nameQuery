@@ -1,0 +1,46 @@
+.box{
+  padding: 20px;
+  height: 100vh;
+  background-color:rgb(255, 255, 255);
+}
+.page-body {
+  height: 650rpx;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50%;
+}
+.page-input{
+  display: flex;
+  flex-direction: row;
+  margin: 10px 5px;
+  height: 100rpx;
+  width: 600rpx;
+}
+.title{
+  justify-content: center;
+  align-items: center;
+  font-size: 40rpx;
+  margin-top: 20rpx;
+}
+.uname>input{
+  border: 1px solid ;
+  margin-top: 20rpx;
+  width: 450rpx;
+  height: 90rpx;
+  position: relative;
+  left: 24rpx;
+  top: -20rpx;
+}
+.password>input{
+  border: 1px solid ;
+  margin-top: 20rpx;
+  width: 450rpx;
+  height: 90rpx;
+  position: relative;
+  left: 24rpx;
+  top: -20rpx;
+}
+.button{
+  margin-top: 20px;
+}
